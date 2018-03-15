@@ -1,0 +1,37 @@
+/* Reviews */
+.reviewWrapper {
+	padding: 2.5% 0;
+}
+.reviews {
+	text-align: center;
+}
+.reviews hr {
+	background-color: rgba(74, 130, 199, 0.85);
+}
+.slider {
+	display: flex;
+}
+.slider a {
+	color: #365d8a;
+	align-self: center;
+	padding: 0 1.75%;
+}
+.stars {
+	display: flex;
+	justify-content: center;
+	padding: .75% 0;
+}
+@media (min-width: 1024px) {
+	/* Reviews */
+	.reviewWrapper {
+		background: #ffffff;
+		width: 70%;
+		margin: 0 15%;
+	}
+	.sliderItem {
+		color: rgba(35, 35, 35, 0.85);
+	}
+	.slider a {
+		padding: 0 10%;
+	}
+}

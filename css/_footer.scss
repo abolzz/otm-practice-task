@@ -1,0 +1,154 @@
+/* Footer */
+footer {
+	background: linear-gradient(to top, rgba(18, 53, 94, 0.85) 0%, rgba(18, 53, 94, 0.85) 100%), url(../img/footer-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+	padding: 5%;
+}
+.contactForm {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	padding-bottom: 5%;
+}
+.contactForm input:first-child {
+	margin-top: 5%;
+}
+.contactForm * {
+	margin: 0.75% 0;
+	padding: 0.75%;
+	border-radius: 5px;
+}
+.inputs {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+.topInputs {
+	padding: 0;
+}
+.inputIcon {
+	position: absolute;
+	color: #365d8a;
+	padding: 2.5%;
+	z-index: 1;
+}
+.inputs input {
+	text-indent: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 30px;
+}
+.inputMessage {
+	padding: 0;
+}
+#messageIcon {
+	padding-left: 2.5%;
+	padding-top: 0;
+}
+.inputMessage textarea {
+	width: 100%;
+	box-sizing : border-box;
+	margin: 0;
+	text-indent: 30px;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+.contactForm button {
+	background: rgba(74, 130, 199, 0.85);
+	align-self: center;
+	padding: 2.25%;
+	margin-top: 2.25%;
+	font-size: 18px;
+	border-radius: 0;
+	border: none;
+}
+.contactForm button:hover {
+	background: rgba(74, 130, 199, 0.5);
+}
+.footerAddress {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 2.5% 0;
+}
+.footerPhoneNumber {
+	font-size: 20px;
+}
+.socials li {
+	display: inline;
+}
+.copyright {
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+	font-weight: 400;
+	padding-top: 2.5%;
+}
+@media (min-width: 1024px) {
+	/* Footer */
+	footer {
+		padding: 2.5% 15%;
+	}
+	.inputs {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding: 0;
+		margin-bottom: 0;
+		position: relative;
+	}
+	.inputs {
+		width: 100%;
+	}
+	.inputIcon {
+		padding-left: 1.25%;
+		padding-top: .5%;
+	}
+	.topInputs {
+		width: 32%;
+		padding: 0;
+	}
+	.inputs input {
+		width: 100%;
+	}
+	.inputs input:first-child {
+		margin: 0;
+	}
+	.inputMessage {
+		padding: 0;
+	}
+	#messageIcon {
+		padding-top: 0;
+		padding-left: .75%;
+	}
+	.inputMessage textarea {
+		width: 100%;
+		box-sizing : border-box;
+		margin: 0;
+		text-indent: 30px;
+	}
+	.contactForm button {
+		padding: 1.5% 1.75%;
+	}
+	.footerAddress {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 2.5% 0;
+	}
+	.address {
+		text-align: left;
+		flex: 1;
+	}
+	.socials {
+		flex: 1;
+	}
+	.footerPhone {
+		text-align: right;
+		flex: 1;
+	}
+}

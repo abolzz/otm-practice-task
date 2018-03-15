@@ -1,0 +1,90 @@
+/* Main */
+main {
+	background: #ffffff;
+}
+.mainWrapper {
+	margin: 0 2.25%;
+	padding: 1.25%;
+}
+main hr {
+	background-color: rgba(74, 130, 199, 0.85);
+	margin: 0 90% 0 0;
+}
+.practices h2 {
+	font-size: 15px;
+	padding: 2.5% 0;
+}
+.practices .fa-caret-right {
+	padding-right: 2.5%;
+	color: #365d8a;
+}
+.quote {
+	color: rgba(35, 35, 35, 0.85);
+	background: #f7f7f7;
+	padding: 2.5% 1.5%;
+}
+.quote span {
+	color: #464943;
+	float: right;
+	font-weight: bolder;
+}
+.sidebar {
+	background: linear-gradient(rgba(35, 35, 35, 0.85), rgba(35, 35, 35, 0.85)), url(../img/sidebar-mask.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	flex: 1;
+	height: 100%;
+}
+.sidebarLogo {
+	max-width: 60%;
+	padding: 5% 0;
+}
+.sidebarIcons {
+	background: rgba(0, 0, 0, 0.3);
+	text-align: left;
+	height: 65%;
+	line-height: 45px;
+}
+.sidebarIcons a {
+	padding-left: 10%;
+}
+.sidebarIcons li {
+	border-bottom: 1px solid rgba(247,247,247,0.25);
+	margin: 0 5%;
+	padding: 2.5% 0;
+}
+.sidebarIcons li:last-child {
+	border: none;
+}
+.sidebarIcons img {
+	vertical-align: middle;
+	padding-right: 2.5%;
+}
+@media (min-width: 1024px) {
+	/* Main */
+	main, .reviews {
+		background: linear-gradient(rgba(247, 247, 247, 0.85), rgba(247, 247, 247, 0.85)), url(../img/main-bg.jpg);
+	}
+	main {
+		width: 70%;
+		padding: 0 15%;
+		display: flex;
+	}
+	.mainWrapper {
+		flex: 2;
+		background: #ffffff;
+		margin: 0;
+	}
+	.practices {
+		width: 50%;
+		float: left;
+	}
+	.quote {
+		width: 47%;
+		float: left;
+	}
+	.sidebar {
+		width: 100%;
+	}
+}

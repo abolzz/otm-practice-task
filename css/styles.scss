@@ -1,0 +1,73 @@
+/* General styles */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	overflow-x: hidden;
+}
+h1 {
+	font-family: 'Rajdhani', sans-serif;
+	padding-top: 1.5%;
+}
+h1, h2 {
+	color: rgba(35, 35, 35, 0.85);
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+p {
+	margin: 1.5% 0;
+}
+ul {
+	list-style-type: none;
+}
+button {
+	background: transparent;
+	border: none;
+	color: #ffffff;
+}
+address {
+	font-style: normal;
+}
+hr {
+	height: 3px;
+	width: 10%;
+	background-color: #f7f7f7;
+	border: none;
+	margin: 0 45%;
+}
+.white {
+	color: #ffffff;
+}
+.show {
+	display: block;
+}
+.hide {
+	display: none;
+}
+.upperCase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.bold {
+	font-weight: 700;
+}
+.italic {
+	font-style: italic;
+}
+.fontAwesomeIcon {
+	padding-left: 2.5%;
+}
+/* Imports */
+@import 'header';
+@import 'hero';
+@import 'main';
+@import 'about';
+@import 'reviews';
+@import 'footer';
